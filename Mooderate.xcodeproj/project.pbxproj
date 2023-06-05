@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7256FA702A2E95D500550D27 /* Extensions+constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7256FA6F2A2E95D500550D27 /* Extensions+constants.swift */; };
+		7256FA732A2E98EE00550D27 /* ViewComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7256FA722A2E98EE00550D27 /* ViewComponents.swift */; };
+		7256FA762A2E9C1400550D27 /* Quicksand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7256FA752A2E9C1400550D27 /* Quicksand.ttf */; };
+		7256FA782A2EA19200550D27 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7256FA772A2EA19200550D27 /* HomeController.swift */; };
+		7256FA7A2A2EA1BE00550D27 /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7256FA792A2EA1BE00550D27 /* CalendarController.swift */; };
 		72B7EB092A2E56160087A9D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B7EB082A2E56160087A9D3 /* AppDelegate.swift */; };
 		72B7EB0B2A2E56160087A9D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B7EB0A2A2E56160087A9D3 /* SceneDelegate.swift */; };
 		72B7EB0D2A2E56160087A9D3 /* ParentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B7EB0C2A2E56160087A9D3 /* ParentController.swift */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7256FA6F2A2E95D500550D27 /* Extensions+constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+constants.swift"; sourceTree = "<group>"; };
+		7256FA722A2E98EE00550D27 /* ViewComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComponents.swift; sourceTree = "<group>"; };
+		7256FA752A2E9C1400550D27 /* Quicksand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand.ttf; sourceTree = "<group>"; };
+		7256FA772A2EA19200550D27 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		7256FA792A2EA1BE00550D27 /* CalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
 		72B7EB052A2E56160087A9D3 /* Mooderate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mooderate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B7EB082A2E56160087A9D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72B7EB0A2A2E56160087A9D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +45,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7256FA6D2A2E94AF00550D27 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72B7EB0C2A2E56160087A9D3 /* ParentController.swift */,
+				7256FA772A2EA19200550D27 /* HomeController.swift */,
+				7256FA792A2EA1BE00550D27 /* CalendarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7256FA6E2A2E95C300550D27 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7256FA6F2A2E95D500550D27 /* Extensions+constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7256FA712A2E98D900550D27 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7256FA722A2E98EE00550D27 /* ViewComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7256FA742A2E9A3A00550D27 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7256FA752A2E9C1400550D27 /* Quicksand.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		72B7EAFC2A2E56160087A9D3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,7 +100,10 @@
 			children = (
 				72B7EB082A2E56160087A9D3 /* AppDelegate.swift */,
 				72B7EB0A2A2E56160087A9D3 /* SceneDelegate.swift */,
-				72B7EB0C2A2E56160087A9D3 /* ParentController.swift */,
+				7256FA712A2E98D900550D27 /* Components */,
+				7256FA6E2A2E95C300550D27 /* Helpers */,
+				7256FA6D2A2E94AF00550D27 /* Controllers */,
+				7256FA742A2E9A3A00550D27 /* Fonts */,
 				72B7EB112A2E56180087A9D3 /* Assets.xcassets */,
 				72B7EB132A2E56180087A9D3 /* LaunchScreen.storyboard */,
 				72B7EB162A2E56180087A9D3 /* Info.plist */,
@@ -124,6 +171,7 @@
 			files = (
 				72B7EB152A2E56180087A9D3 /* LaunchScreen.storyboard in Resources */,
 				72B7EB122A2E56180087A9D3 /* Assets.xcassets in Resources */,
+				7256FA762A2E9C1400550D27 /* Quicksand.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7256FA732A2E98EE00550D27 /* ViewComponents.swift in Sources */,
 				72B7EB0D2A2E56160087A9D3 /* ParentController.swift in Sources */,
+				7256FA782A2EA19200550D27 /* HomeController.swift in Sources */,
+				7256FA7A2A2EA1BE00550D27 /* CalendarController.swift in Sources */,
+				7256FA702A2E95D500550D27 /* Extensions+constants.swift in Sources */,
 				72B7EB092A2E56160087A9D3 /* AppDelegate.swift in Sources */,
 				72B7EB0B2A2E56160087A9D3 /* SceneDelegate.swift in Sources */,
 			);

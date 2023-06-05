@@ -1,5 +1,5 @@
 //
-//  ParentController.swift
+//  HomeController.swift
 //  Mooderate
 //
 //  Created by Didami on 05/06/23.
@@ -7,7 +7,9 @@
 
 import UIKit
 
-class ParentController: UIViewController {
+class HomeController: UIViewController {
+    
+    var parentController: ParentController?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,6 +17,6 @@ class ParentController: UIViewController {
     }
     
     private func setupViews() {
-        view.backgroundColor = .systemBackground
+        view.backgroundColor = .background
     }
 }
